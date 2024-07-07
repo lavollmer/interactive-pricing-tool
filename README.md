@@ -61,6 +61,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### What I learned
 
+1. Content Configuration: Your tailwind.config.js file has an empty content array. Tailwind uses this array to determine which files to scan for class names. If it's empty, Tailwind won't generate any styles. Make sure to include paths to all your HTML, JavaScript, and JSX files here. 
+
 
 ### Continued development
 
