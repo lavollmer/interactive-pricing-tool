@@ -1,3 +1,7 @@
 .checkmark-list {
     list-style-image: url('./assets/icon-check.svg');
   }
+
+  .icon-slider {
+    list-style-image: url('./assets/icon-slider.svg');
+  }
