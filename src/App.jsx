@@ -29,9 +29,12 @@ function App() {
             Sign-up for our 30-day trial. No credit card required.
           </h2>
           <div className="bg-white shadow-lg rounded-md">
-            <div>
-              <h1>100K Page Views</h1>
-              <h1>$16.00/month</h1>
+            <div className="flex flex-row space-x-12 items-center justify-center">
+              <h2 className="font-manrope font-bold text-xs text-grayish-blue">100K PAGE VIEWS</h2>
+              <div className="flex flex-row">
+              <h2 className="font-manrope font-bold text-2xl text-dark-desaturated-blue">$16.00</h2>
+              <h2 className="flex items-center justify-center font-manrope font-bold text-xs text-grayish-blue">/month</h2>
+            </div>
             </div>
             <div>
               <p>Slider</p>
