@@ -38,6 +38,13 @@ function App() {
             </div>
             <div>
               <p>Monthly Billing</p>
+              <label className="inline-flex items-center cursor-pointer">
+                <input type="checkbox" className="sr-only peer" />
+                <div className="relative w-11 h-6 bg-gray-200 peer-focus:outline-none"></div>
+                <span className="ms-3 text-sm font-medium text-gray-900 dark:text-gray-300">
+                  Toggle me
+                </span>
+              </label>
               <p>Yearly Billing</p>
               <p>?% discount</p>
             </div>
@@ -48,8 +55,8 @@ function App() {
                 <li>100% data ownership</li>
                 <li>Email reports</li>
               </ul>
-              <div className="object-right-bottom">
-                <button className="p-2 w-full bg-dark-desaturated-blue text-white text-sm rounded-full">
+              <div className="flex">
+                <button className="pl-4 pr-4 mt-1 mb-1 w-full bg-dark-desaturated-blue text-white text-sm rounded-full">
                   Start my trial
                 </button>
               </div>
