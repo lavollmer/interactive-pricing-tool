@@ -3,6 +3,8 @@ import "./App.css";
 import bgPattern from "./assets/bg-pattern.svg";
 //importing the circles image from design folder
 import patternCircles from "./assets/pattern-circles.svg";
+//importing checkmarks
+import checkmark from "./assets/icon-check.svg";
 
 function App() {
   return (
@@ -39,11 +41,17 @@ function App() {
               <p>Yearly Billing</p>
               <p>?% discount</p>
             </div>
-            <div>
-              <p>Unlimited websites</p>
-              <p>1--% data ownership</p>
-              <p>Email reports</p>
-              <p>Start my trial</p>
+            <div className="flex flex-row space-x-6">
+              <ul className="checkmark-list text-sm">
+                <li>Unlimited websites</li>
+                <li>100% data ownership</li>
+                <li>Email reports</li>
+              </ul>
+              <div className="object-right-bottom">
+                <button className="p-2 w-full bg-dark-desaturated-blue text-white text-sm rounded-full">
+                  Start my trial
+                </button>
+              </div>
             </div>
           </div>
         </div>

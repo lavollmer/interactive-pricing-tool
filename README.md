@@ -71,7 +71,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 - [Google Fonts Manrope](https://fonts.google.com/specimen/Manrope) - This was the selected Google Fonts styling page.
 - [Flowbite TailwindCSS Slider] (https://flowbite.com/docs/forms/range/) - This was the resource for the slider element
-
+- [TailwindCSS Border Radius] (https://tailwindcss.com/docs/border-radius) - This was a used resource for rounding buttons and objects.
 
 ## Author
 
