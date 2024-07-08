@@ -30,14 +30,31 @@ function App() {
           </h2>
           <div className="bg-white shadow-lg rounded-md">
             <div className="flex flex-row space-x-12 items-center justify-center">
-              <h2 className="font-manrope font-bold text-xs text-grayish-blue">100K PAGE VIEWS</h2>
+              <h2 className="font-manrope font-bold text-xs text-grayish-blue">
+                100K PAGE VIEWS
+              </h2>
               <div className="flex flex-row">
-              <h2 className="font-manrope font-bold text-2xl text-dark-desaturated-blue">$16.00</h2>
-              <h2 className="flex items-center justify-center font-manrope font-bold text-xs text-grayish-blue">/month</h2>
-            </div>
+                <h2 className="font-manrope font-bold text-2xl text-dark-desaturated-blue">
+                  $16.00
+                </h2>
+                <h2 className="flex items-center justify-center font-manrope font-bold text-xs text-grayish-blue">
+                  /month
+                </h2>
+              </div>
             </div>
             <div>
-              <p>Slider</p>
+              <label
+                for="default-range"
+                className="block mb-2 text-sm font-md text-gray-900 dark:text-white"
+              >
+                Default range
+              </label>
+              <input
+                id="default-range"
+                type="range"
+                value="50"
+                className="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer dark:bg-gray-700"
+              ></input>
             </div>
             <div className="flex flex-row text-grayish-blue text-sm font-manrope">
               <p>Monthly Billing</p>
