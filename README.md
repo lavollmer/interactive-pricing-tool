@@ -70,6 +70,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ### Useful resources
 
 - [Google Fonts Manrope](https://fonts.google.com/specimen/Manrope) - This was the selected Google Fonts styling page.
+- [Flowbite TailwindCSS Slider] (https://flowbite.com/docs/forms/range/) - This was the resource for the slider element
 
 
 ## Author
