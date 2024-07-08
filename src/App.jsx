@@ -10,7 +10,7 @@ function App() {
 
   const handleSliderChange = (e) => {
     setValue(e.target.value);
-  }
+  };
 
   return (
     <>
@@ -40,7 +40,7 @@ function App() {
                   100K PAGE VIEWS
                 </h2>
                 <div className="flex flex-row">
-                <h2 className="font-manrope font-bold text-2xl text-dark-desaturated-blue">
+                  <h2 className="font-manrope font-bold text-2xl text-dark-desaturated-blue">
                     $
                   </h2>
                   <h2 className="font-manrope font-bold text-2xl text-dark-desaturated-blue">
@@ -65,18 +65,25 @@ function App() {
                   className="w-full h-2 bg-soft-cyan rounded-lg appearance-none cursor-pointer accent-bg-strong-cyan"
                 ></input>
               </div>
-              <div className="flex align-items items-center justify-center space-x-1 text-grayish-blue text-xs font-manrope">
-                <h2>Monthly Billing</h2>
-                {/* Label element provides clikable area for checkbox and associate with label input, input has type of checkbox, first div is the background of the checkbox and the second div is the checkbox indicator */}
-                <label className="inline-flex items-center cursor-pointer rounded-full">
-                  {/* peer class is added to establish a reference for sibling elements, opacity-0 and absolute are to visually hide the checkbox */}
-                  <input type="checkbox" className="peer opacity-0 absolute" />
-                  <div className="relative w-11 h-6 bg-light-grayish-blue-toggle rounded-full"></div>
-                  <div className="absolute left-0 w-5 h-5 bg-white rounded-full shadow-md transform peer-checked:translate-x-full transition-transform"></div>
-                </label>
+              <div className="flex align-items items-center justify-center space-x-2 text-grayish-blue text-xs font-manrope">
+                <div className="flex flex-row items-center justify-center">
+                  <h2>Monthly Billing</h2>
+                  {/* Label element provides clikable area for checkbox and associate with label input, input has type of checkbox, first div is the background of the checkbox and the second div is the checkbox indicator */}
+                  <label className="inline-flex items-center cursor-pointer rounded-full">
+                    {/* peer class is added to establish a reference for sibling elements, opacity-0 and absolute are to visually hide the checkbox */}
+                    <input
+                      type="checkbox"
+                      className="peer opacity-0 absolute"
+                    />
+                    <div className="relative w-11 h-6 bg-light-grayish-blue-toggle rounded-full"></div>
+                    <div className="absolute left-0 w-5 h-5 bg-white rounded-full shadow-md transform peer-checked:translate-x-full transition-transform"></div>
+                  </label>
+                </div>
+                <div className="flex flex-row items-center justify-center">
                 <h2>Yearly Billing</h2>
                 <div className="bg-light-grayish-red rounded-full p-1 outline-style-solid">
                   <h2 className="text-light-red">25% discount</h2>
+                </div>
                 </div>
               </div>
               <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"></hr>
