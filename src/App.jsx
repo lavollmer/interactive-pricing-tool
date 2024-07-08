@@ -17,23 +17,24 @@ function App() {
       {/* top part of the home page */}
       <div className="flex flex-col items-center justify-center relative">
         <img
-          className="absolute top-0 left-0 w-full h-full  object-cover z-0"
+          className="absolute display:flex md:shrink-0 top-0 left-0 w-full h-full  object-cover z-0"
           src={bgPattern}
           alt="Background pattern"
         />
-        <div className="flex m-20 items-center justify-center relative">
+        <div className="flex m-14 md:m-20 items-center justify-center relative">
           <img
             src={patternCircles}
             alt="Background circles"
-            className="h-24 w-24 absolute justify-center items-center"
+            className="md:h-24 md:w-24 absolute justify-center items-center"
           />
           <div className="z-10 flex flex-col">
-            <h1 className="font-bold text-dark-desaturated-blue text-md md:text-2xl font-manrope">
+            <h1 className="font-bold text-dark-desaturated-blue text-lg md:text-2xl font-manrope">
               Simple, traffic-based pricing
             </h1>
-            <h2 className="text-grayish-blue m-2 text-xs font-manrope">
+            <h2 className="text-grayish-blue m-4 md:m-2 text-md md:text-xs font-manrope">
               Sign-up for our 30-day trial. No credit card required.
             </h2>
+            
           </div>
         </div>
         <div className="flex p-4 md:p-20 relative">
@@ -68,7 +69,7 @@ function App() {
                 className="w-full h-2 bg-soft-cyan rounded-lg appearance-none cursor-pointer accent-bg-strong-cyan"
               ></input>
             </div>
-            <div className="flex align-items items-center justify-center space-x-2 text-grayish-blue text-xxs font-manrope">
+            <div className="flex flex-row p-2 align-items items-center justify-center space-x-2 text-grayish-blue text-xxs font-manrope">
               <h2>Monthly Billing</h2>
               {/* Label element provides clikable area for checkbox and associate with label input, input has type of checkbox, first div is the background of the checkbox and the second div is the checkbox indicator */}
               <label className="flex items-center cursor-pointer rounded-full">
