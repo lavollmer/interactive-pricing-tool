@@ -17,7 +17,7 @@ function App() {
       {/* top part of the home page */}
       <div className="flex flex-col items-center justify-center relative">
         <img
-          className="absolute top-0 left-0 w-full  object-cover z-0"
+          className="absolute top-0 left-0 w-full h-full  object-cover z-0"
           src={bgPattern}
           alt="Background pattern"
         />
@@ -27,8 +27,8 @@ function App() {
             alt="Background circles"
             className="h-24 w-24 absolute justify-center items-center"
           />
-          <div className="z-10 flex flex-col items-center">
-            <h1 className="font-bold text-dark-desaturated-blue text-2xl font-manrope">
+          <div className="z-10 flex flex-col">
+            <h1 className="font-bold text-dark-desaturated-blue text-md md:text-2xl font-manrope">
               Simple, traffic-based pricing
             </h1>
             <h2 className="text-grayish-blue m-2 text-xs font-manrope">
@@ -36,8 +36,8 @@ function App() {
             </h2>
           </div>
         </div>
-        <div className="flex p-20 relative">
-          <div className="bg-white shadow-lg rounded-md p-10">
+        <div className="flex p-4 md:p-20 relative">
+          <div className="bg-white shadow-lg rounded-md md:p-10">
             <div className="flex flex-row space-x-12 items-center justify-center">
               <h2 className="font-manrope font-bold text-sm md:text-md text-grayish-blue">
                 100K PAGE VIEWS
