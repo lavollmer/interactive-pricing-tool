@@ -5,7 +5,7 @@ import patternCircles from "./assets/pattern-circles.svg";
 function App() {
   return (
     <>
-      <div>
+      <div className="flex items-center justify-center">
         <img
           className="h-full w-full"
           src={bgPattern}
@@ -14,7 +14,7 @@ function App() {
         <img
           src={patternCircles}
           alt="Background circles"
-          className="absolute justify-center h-full w-full"
+          className="absolute justify-center items-center z-10 "
         />
       </div>
       <div className="z-20 relative flex flex-col items-center">
