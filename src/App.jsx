@@ -41,7 +41,8 @@ function App() {
               <p>Yearly Billing</p>
               <p>?% discount</p>
             </div>
-            <div className="flex flex-row space-x-6">
+            <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"></hr>
+            <div className="flex flex-row space-x-10 m-10">
               <ul className="checkmark-list text-sm">
                 <li>Unlimited websites</li>
                 <li>100% data ownership</li>
