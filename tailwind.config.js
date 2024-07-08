@@ -11,6 +11,7 @@ export default {
       },
       fontSize: {
         '15px': '15px',
+          'xxs': '.625rem', // 10px
       },
       colors: {
         // Primary colors
