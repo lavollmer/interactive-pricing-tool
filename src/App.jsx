@@ -7,20 +7,23 @@ function App() {
     <>
       <div>
         <img
-          className="w-full h-full object-cover"
+          className="h-full w-full"
           src={bgPattern}
-          alt="bgPattern"
+          alt="Background pattern"
         />
-
-        <div>
-          <img src={patternCircles} alt="patternCircles" />
-          <h1 className="font-bold text-dark-desaturated-blue text-lg font-manrope">
-            Simple, traffic-based pricing
-          </h1>
-          <h2 className="text-grayish-blue text-sm font-manrope">
-            Sign-up for our 30-day trial. No credit card required.
-          </h2>
-        </div>
+        <img
+          src={patternCircles}
+          alt="Background circles"
+          className="absolute justify-center h-full w-full"
+        />
+      </div>
+      <div className="z-20 relative flex flex-col items-center">
+        <h1 className="font-bold text-dark-desaturated-blue text-lg font-manrope">
+          Simple, traffic-based pricing
+        </h1>
+        <h2 className="text-grayish-blue text-sm font-manrope">
+          Sign-up for our 30-day trial. No credit card required.
+        </h2>
       </div>
     </>
   );
