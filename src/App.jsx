@@ -84,8 +84,8 @@ function App() {
               </div>
             </div>
             <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"></hr>
-            <div className="flex space-x-20 text-grayish-blue">
-              <ul className="checkmark-list text-sm p-4">
+            <div className="flex flex-col items-center justify-center space-y-2 mb-4 md:flex-row  md:space-x-20 text-grayish-blue">
+              <ul className="checkmark-list text-xxs md:text-sm md:p-4">
                 <li className="pb-2">Unlimited websites</li>
                 <li className="pb-2">100% data ownership</li>
                 <li>Email reports</li>
