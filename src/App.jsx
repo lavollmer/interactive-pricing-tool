@@ -36,17 +36,19 @@ function App() {
             <div>
               <p>Slider</p>
             </div>
-            <div>
+            <div className="flex flex-row text-grayish-blue text-sm font-manrope">
               <p>Monthly Billing</p>
               {/* Label element provides clikable area for checkbox and associate with label input, input has type of checkbox, first div is the background of the checkbox and the second div is the checkbox indicator */}
               <label className="inline-flex items-center cursor-pointer rounded-full">
                 {/* peer class is added to establish a reference for sibling elements, opacity-0 and absolute are to visually hide the checkbox */}
-                <input type="checkbox" className="peer opacity-0 absolute"/>
+                <input type="checkbox" className="peer opacity-0 absolute" />
                 <div className="relative w-11 h-6 bg-light-grayish-blue-toggle rounded-full"></div>
                 <div className="absolute left-0 w-5 h-5 bg-white rounded-full shadow-md transform peer-checked:translate-x-full transition-transform"></div>
               </label>
               <p>Yearly Billing</p>
-              <p>?% discount</p>
+              <div className="bg-light-grayish-red rounded-full p-1 outline-style-solid">
+                <p className="text-light-red">25% discount</p>
+              </div>
             </div>
             <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"></hr>
             <div className="flex flex-row space-x-10 m-10">
