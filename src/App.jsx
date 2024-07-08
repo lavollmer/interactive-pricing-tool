@@ -74,24 +74,24 @@ function App() {
               <label className="flex items-center cursor-pointer rounded-full">
                 {/* peer class is added to establish a reference for sibling elements, opacity-0 and absolute are to visually hide the checkbox */}
                 <input type="checkbox" className="peer opacity-0 absolute" />
-                <div className="relative w-11 h-6 bg-light-grayish-blue-toggle rounded-full"></div>
+                <div className="relative w-11 h-6 bg-strong-cyan rounded-full"></div>
                 <div className="absolute w-5 h-5 bg-white rounded-full shadow-md transform peer-checked:translate-x-full transition-transform"></div>
               </label>
 
               <h2>Yearly Billing</h2>
               <div className="bg-light-grayish-red rounded-full p-1 outline-style-solid">
-                <h2 className="text-light-red">25% discount</h2>
+                <h2 className="text-light-red font-bold">25% discount</h2>
               </div>
             </div>
             <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"></hr>
-            <div className="flex flex-row space-x-10 m-10 text-grayish-blue">
-              <ul className="checkmark-list text-sm">
-                <li>Unlimited websites</li>
-                <li>100% data ownership</li>
+            <div className="flex space-x-20 text-grayish-blue">
+              <ul className="checkmark-list text-sm p-4">
+                <li className="pb-2">Unlimited websites</li>
+                <li className="pb-2">100% data ownership</li>
                 <li>Email reports</li>
               </ul>
-              <div className="flex">
-                <button className="pl-4 pr-4 mt-1 mb-1 w-full bg-dark-desaturated-blue text-white text-sm rounded-full">
+              <div className="flex flex-col items-center justify-center">
+                <button className="pl-8 pr-8 pt-2 pb-2 w-full bg-dark-desaturated-blue text-white text-sm rounded-full">
                   Start my trial
                 </button>
               </div>
