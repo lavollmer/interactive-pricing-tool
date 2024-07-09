@@ -102,7 +102,7 @@ function App() {
               </ul>
               {/* Start my trial button */}
               <div className="flex flex-col items-center justify-center">
-                <button className="pl-8 pr-8 pt-2 pb-2 w-full bg-dark-desaturated-blue text-white text-sm rounded-full">
+                <button className="pl-8 pr-8 pt-2 pb-2 w-full bg-dark-desaturated-blue text-white text-sm rounded-full hover:bg-soft-cyan duration-90 ease-in-out">
                   Start my trial
                 </button>
               </div>
