@@ -20,6 +20,8 @@ This is a solution to the [Interactive pricing component challenge on Frontend M
 
 ## Overview
 
+This project aimed to develop an interactive pricing tool, featuring a dynamic and user-friendly interface. The core of the application is a slider that allows users to adjust pricing based on their needs, complemented by a toggle switch for different billing cycles. The design incorporates a modern aesthetic with custom colors, fonts, and responsive layouts, ensuring an engaging user experience across all devices. The challenge, sourced from [Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-pricing-component-t0m8PIyY8), provided a practical scenario to enhance coding skills through the creation of a realistic project component.
+
 ### The challenge
 
 Users should be able to:
@@ -37,7 +39,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Laura Developer Solution](https://www.frontendmentor.io/solutions/reactjs-tailwindcss-vite-interactive-pricing-tool-BQeKEFSq2R)
 - Live Site URL: [Laura Developer Interactive Pricing Tool](https://pricingtool-lauradev.netlify.app/)
 
 ## My process
@@ -65,8 +67,7 @@ This project was not only a test of my technical skills but also an invaluable l
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
 - Google Fonts
-
-### What I learned
+- Vite
 
 ### What I Learned
 
