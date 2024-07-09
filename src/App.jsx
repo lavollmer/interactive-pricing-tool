@@ -39,14 +39,13 @@ function App() {
             <h2 className="text-grayish-blue m-4 md:m-2 text-md md:text-xs font-manrope">
               Sign-up for our 30-day trial. No credit card required.
             </h2>
-            
           </div>
         </div>
         <div className="flex p-4 md:p-20 relative">
           <div className="bg-white shadow-lg rounded-md md:p-10">
             <div className="flex flex-row space-x-12 items-center justify-center">
               <h2 className="font-manrope font-bold text-sm md:text-md text-grayish-blue">
-                100K PAGE VIEWS
+                {value}K PAGE VIEWS
               </h2>
               <div className="flex flex-row">
                 <h2 className="font-manrope font-bold md:text-2xl text-dark-desaturated-blue">
@@ -70,12 +69,10 @@ function App() {
                 type="range"
                 min="1"
                 max="100"
-                
                 value={value}
                 onChange={handleSliderChange}
                 className="w-full h-2 bg-soft-cyan rounded-lg appearance-none cursor-pointer accent-bg-strong-cyan"
-              >
-              </input>
+              ></input>
             </div>
             {/* Toggle button */}
             <div className="flex flex-row p-2 align-items items-center justify-center space-x-2 text-grayish-blue text-xxs font-manrope">
