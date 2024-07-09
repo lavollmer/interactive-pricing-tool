@@ -8,7 +8,7 @@ This is a solution to the [Interactive pricing component challenge on Frontend M
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+  - [Screenshots](#screenshots)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -28,9 +28,11 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 - Use the slider and toggle to see prices for different page view numbers
 
-### Screenshot
+### Screenshots
 
-![](./screenshot.jpg)
+![Desktop Pricing Tool](./src/assets/PricingToolScreenshot.png)
+
+![Mobile Pricing Tool](./src/assets/MobilePricingTool.png)
 
 
 ### Links
