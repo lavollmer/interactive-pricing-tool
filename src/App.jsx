@@ -3,11 +3,16 @@ import "./App.css";
 import bgPattern from "./assets/bg-pattern.svg";
 //importing the circles image from design folder
 import patternCircles from "./assets/pattern-circles.svg";
+//importing the react useState hook
 import { useState } from "react";
 
 function App() {
+  //useState hook to set the initial value of the slider
+  //value is the current state and setValue is the function that updates the state
   const [value, setValue] = useState(50);
 
+  //function is callback for handling changes in slider input
+  //when slider value is changed, it calls setValue to update the state of the new valude obtained from the event object
   const handleSliderChange = (e) => {
     setValue(e.target.value);
   };
@@ -58,17 +63,21 @@ function App() {
                 </h2>
               </div>
             </div>
+            {/* Slider */}
             <div className="flex m-6">
               <input
                 id="range"
                 type="range"
                 min="1"
                 max="100"
+                
                 value={value}
                 onChange={handleSliderChange}
                 className="w-full h-2 bg-soft-cyan rounded-lg appearance-none cursor-pointer accent-bg-strong-cyan"
-              ></input>
+              >
+              </input>
             </div>
+            {/* Toggle button */}
             <div className="flex flex-row p-2 align-items items-center justify-center space-x-2 text-grayish-blue text-xxs font-manrope">
               <h2>Monthly Billing</h2>
               {/* Label element provides clikable area for checkbox and associate with label input, input has type of checkbox, first div is the background of the checkbox and the second div is the checkbox indicator */}
@@ -91,6 +100,7 @@ function App() {
                 <li className="pb-2">100% data ownership</li>
                 <li>Email reports</li>
               </ul>
+              {/* Start my trial button */}
               <div className="flex flex-col items-center justify-center">
                 <button className="pl-8 pr-8 pt-2 pb-2 w-full bg-dark-desaturated-blue text-white text-sm rounded-full">
                   Start my trial
