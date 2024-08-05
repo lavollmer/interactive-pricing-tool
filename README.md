@@ -92,9 +92,9 @@ I will continue to work on different functionalities to create more interactive 
 ### Useful resources
 
 - [Google Fonts Manrope](https://fonts.google.com/specimen/Manrope) - This was the selected Google Fonts styling page.
-- [Flowbite TailwindCSS Slider] (https://flowbite.com/docs/forms/range/) - This was the resource for the slider element
-- [TailwindCSS Border Radius] (https://tailwindcss.com/docs/border-radius) - This was a used resource for rounding buttons and objects.
-- [TailwindCSS Responsive Design] (https://tailwindcss.com/docs/responsive-design)
+- [Flowbite TailwindCSS Slider](https://flowbite.com/docs/forms/range/) - This was the resource for the slider element
+- [TailwindCSS Border Radius](https://tailwindcss.com/docs/border-radius) - This was a used resource for rounding buttons and objects.
+- [TailwindCSS Responsive Design](https://tailwindcss.com/docs/responsive-design)
 
 ## Author
 
